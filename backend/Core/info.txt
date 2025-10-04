@@ -1,0 +1,1 @@
+This is where entity-related files will be stored such as entities, interfaces, enums.

@@ -32,7 +32,17 @@
         "ms-dotnettools.vscodeintellicode-csharp",
         "esbenp.prettier-vscode",
         "helixquar.randomeverything",
-        "humao.rest-client"
+        "humao.rest-client",
+        "christian-kohler.path-intellisense",
+        "patcx.vscode-nuget-gallery",
+        "doggy8088.netcore-snippets",
+        "adrianwilczynski.user-secrets",
+        "adrianwilczynski.add-reference",
+        "adrianwilczynski.namespace",
+        "adrianwilczynski.asp-net-core-switcher",
+        "jmrog.vscode-nuget-package-manager",
+        "tintoy.msbuild-project-tools",
+        "formulahendry.dotnet"
       ]
     }
   }
