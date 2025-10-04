@@ -1,0 +1,8 @@
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/app
+    ports:
+      - "5231:5231"
+      - "7109:7109"

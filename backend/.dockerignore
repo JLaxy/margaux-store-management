@@ -1,0 +1,49 @@
+# .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE folders
+.vs/
+.vscode/
+.idea/
+
+# Logs and local settings
+*.log
+appsettings.Development.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile*
+docker-compose.*
+
+# Git
+.git/
+.gitignore
+
+# Node / frontend (if present in same repo)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Temporary files
+tmp/
+temp/
+
+# Other
+*.swp
+*.bak
+*.orig
