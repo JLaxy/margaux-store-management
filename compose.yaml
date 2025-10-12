@@ -19,8 +19,16 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - frontend_nodemodules:/app/node_modules
 
 volumes:
   backend_bin:
   backend_obj:
+  frontend_nodemodules:
   db_data:
