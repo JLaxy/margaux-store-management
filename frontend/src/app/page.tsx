@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return <div>margaux store</div>;
+  return redirect("/login"); // redirect to login
 }
