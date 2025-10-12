@@ -26,9 +26,14 @@ services:
     volumes:
       - ./frontend:/app
       - frontend_nodemodules:/app/node_modules
+      - frontend_next:/app/.next
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING_INTERVAL=500
 
 volumes:
   backend_bin:
   backend_obj:
   frontend_nodemodules:
+  frontend_next:
   db_data:
